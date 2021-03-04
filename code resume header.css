@@ -33,12 +33,6 @@ body {
 .horizontal-list li a {
     color: white;
     text-decoration: none;
-    transition: color 0.5s, border-bottom 4s;
-}
-
-.horizontal-list li a:hover {
-    color: lightgrey;
-    border-bottom: 1px solid white;
 }
 
 .nav-menu li a {
