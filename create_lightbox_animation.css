@@ -1,0 +1,23 @@
+#content-box {
+    height: 40%;
+    width: 40%;
+    background-color: lightgrey;
+    overflow: hidden;
+}
+
+#lightbox:target {
+    height: 100%;
+    width: 100%;
+}
+
+#lightbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    transition: all 2.5s ease-in-out;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+}
